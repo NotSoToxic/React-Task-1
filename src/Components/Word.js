@@ -11,10 +11,10 @@ function F1() {
     }
   };
   return (
-    <div class="container border justify-content-center align-items-center text-center m-3 p-4">
-      <h2>Responsive Paragraph Word counter</h2>
+    <div class="container">
+      <h2>Responsive Paragraph Word Counter</h2>
       <textarea
-        class="form-control"
+        class="textarea"
         placeholder="Enter Text"
         onChange={handleChange}
       ></textarea>
